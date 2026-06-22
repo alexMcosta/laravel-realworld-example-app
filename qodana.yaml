@@ -6,11 +6,5 @@ version: "1.0"
 linter: qodana-php
 profile:
   name: qodana.recommended
-  inspections:
-    - group: "category:Laravel Idea"
-      enabled: true
 include:
   - name: CheckDependencyLicenses
-
-plugins:
-  - id: com.laravel_idea.plugin
